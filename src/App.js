@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import AccessVar from './AccessingVariable';
 import AccessObject from './AccessObject';
+import Expressions from './expression';
 
 function App(){
   return(
@@ -19,7 +20,7 @@ function App(){
       </p>
       <AccessVar />
       <AccessObject />
-
+      <Expressions />
 
     </React.Fragment>
   )
