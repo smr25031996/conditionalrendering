@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import AccessVar from './AccessingVariable';
+import AccessObject from './AccessObject';
 
 function App(){
   return(
@@ -17,6 +18,7 @@ function App(){
         <br /> large applications using data that changes over time.
       </p>
       <AccessVar />
+      <AccessObject />
 
 
     </React.Fragment>
