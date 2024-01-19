@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import AccessVar from './AccessingVariable';
 
 function App(){
   return(
@@ -15,6 +16,7 @@ function App(){
         modular. It is intended to ease the process of building
         <br /> large applications using data that changes over time.
       </p>
+      <AccessVar />
 
 
     </React.Fragment>
